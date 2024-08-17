@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <style>
+   #p {
+    position: relative;
+    left: 76px;
+   }
+   #g {
+    font-family: 'Lucida Sans Unicode';
+   
+   }
+   #h {
+    color: rgb(0, 51, 255);
+    font-weight: bold;
+   }
+   .bi-facebook {
+   color: rgb(63, 0, 221);
+   }
+    </style>
+</head>
+<body class="container-fluid justify-content-between ">
+    <form class="w-25 text-center mt-2 border border-2 bg-info-subtle m-auto rounded">
+        <div class=" fw-bold fs-3 color" id="g"> Instagram</div>
+        <div class="my-2">
+            <label for="Username"  class="  form-label"></label>
+        </div>
+        <div>
+            <input type="text" class=" form-control  w-50" placeholder="Username " id="p">
+        </div>
+       <div>
+        <label for="Password" class="form-label "></label>
+       </div>
+       <div>
+        <input type="password" class=" form-control w-50" placeholder="Password" id="p">
+       </div>
+       <div>
+        <button class="btn btn-outline-info w-50 my-3">Login</button>
+       </div>
+       <div class="fw-bold text-center">OR</div>
+       <div class="bi bi-facebook"> Login with facebook</div>
+       <p class="fs-6">Forgot password?</p>
+       <div class=" border border-2 mb-2">Don't have an account? <span id="h">Sign up</span></div>
+    </form>
+</body>
+</html>
